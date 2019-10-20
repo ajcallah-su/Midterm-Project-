@@ -1,0 +1,283 @@
+.header-bg{
+    max-width:100%;
+    
+}
+
+
+.sign{
+    display:block;
+    width:100%;
+    position:absolute;
+    z-index:9999;
+    height:1px;
+}
+
+.sign img{
+    width:150px;
+    display:block;
+    position:relative;
+}
+
+
+.nav-item1{
+    font-weight:bold;
+    font-family:"bitter, serif";
+    margin:0px 60px;
+    font-size:20px;
+}
+
+.nav-item2{
+ 
+    font-weight:bold;
+    font-family:"bitter, serif";
+    margin:0px 60px 0px 100px;
+    font-size:20px;
+
+}
+
+
+
+.navbar{
+    border:solid 5px black;
+
+}
+
+.header-bg2{
+    background-image:url(images/plans.jpg);
+    background-size:cover;
+    height:600px;
+
+}
+
+
+
+.display-4{
+    color:white;
+    border:solid 2px white;
+    width:400px;
+    display:flex;
+    justify-content:center;
+    padding:10px;
+    margin-top:400px;
+    font-family:"bitter, serif";
+  
+}
+
+.display-5{
+    color:white;
+    border:solid 2px white;
+    width:400px;
+    display:flex;
+    justify-content:center;
+    padding:10px;
+    font-family:"bitter, serif";
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.navbar2{
+    height:75px;
+    width:100%;
+    justify-content:center;
+    
+}
+
+.navbar3{
+    height:55px;
+    width:100%;
+    font-family:"bitter, serif";
+   
+    
+}
+
+.nav-item3{
+    margin-top:15px;
+    margin-right:80px;
+    margin-left:80px;
+    width:190px;
+    border:solid 2px white;
+    justify-content:center;
+    font-size:20px;
+    text-align:center;
+    font-family:"bitter, serif";
+}
+
+
+.header-bg3{
+    background-image:url(images/book.png);
+    background-size:cover;
+    height:800px;
+}
+
+.container2{
+    display:flex;
+    justify-content:center;
+    margin-top:230px;
+
+    
+
+}
+
+.nav-item4{
+    margin-right:50px;
+    margin-left:50px;
+    width:180px;
+    border-right:solid 2px white;
+    font-size:25px;
+    display:flex;
+    align-items:center;
+
+}
+
+
+.nav-item5{
+    margin-right:50px;
+    margin-left:50px;
+    width:180px;
+    font-size:25px;
+    text-align:center;
+    align-items:center;
+
+  
+}
+
+.circle{
+    position: relative;
+    margin: 50px;
+  
+  }
+
+  .circles{
+      display:flex;
+      justify-content:center;
+      margin:0px 50px;
+      
+
+  }
+  
+  .image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card-body:hover .image {
+    opacity: 0.3;
+  }
+  
+  .card-body:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color:grey;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .row1{
+      display:flex;
+      justify-content:center;
+      padding:50px;
+      
+   
+  }
+
+  .articles{
+    display:flex;
+    justify-content:center;
+   
+  }
+
+
+  .featured{
+      font-size:50px;
+      display:flex;
+      justify-content:center;
+      font-family:"bitter, serif";
+      border:solid 2px black;
+      width:250px;
+      margin-top:30px;
+  }
+
+
+  .contact{
+      margin:35px;
+      font-family:"bitter, serif";
+  }
+
+
+  
+
+  .card1{
+      height:450px;
+      width:450px;
+      margin-right:50px;
+      border:solid 2px gray;
+      background-color:white;
+      font-family:"bitter, serif";
+  }
+
+  .card2{
+    height:450px;
+    width:450px;
+    margin-left:50px;
+    border:solid 2px gray;
+    background-color:white;
+    font-family:"bitter, serif";
+}
+
+.jumbotron{
+    margin:0px;
+}
+
+body{
+    background-color:lightgrey;
+}
+
+.card5{
+    width:500px;
+    height:575px;
+    text-align:center;
+    margin:0px 50px;
+    font-family:"bitter, serif";
+   
+}
+
+.row{
+    display:flex;
+    justify-content:center;
+    margin:50px;
+    font-family:"bitter, serif";
+    
+
+}
+
+.copyright{
+   padding-left:20px;
+   font-family:"bitter, serif";
+}
+
+
+.card9 img{
+    max-height:500px;
+}
